@@ -1,10 +1,13 @@
-import React from 'react'
-import Login from './components/Login'
+import React from "react";
+import Login from "./components/Login";
+import Expense from "./components/Expense";
 const App = () => {
   return (
-    <Login />
-  )
+    <>
+      <Login />
+      {/* <Expense /> */}
+    </>
+  );
+};
 
-}
-
-export default App
+export default App;
